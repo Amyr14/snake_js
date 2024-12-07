@@ -1,0 +1,35 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+#gameContainer {
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+#canvas {
+    width: 600px;
+    height: 300px;
+    flex: 0 0 auto;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.counter {
+    display: flex;
+    width: 120px;
+    height: 60px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 10px;
+}
