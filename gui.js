@@ -20,6 +20,8 @@ const highScoreCounter = document.getElementById('highScoreCounter')
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
+alert("To move the snake, use WASD. Press any key to start.")
+
 // Lidando com inputs do teclado
 document.addEventListener('keydown', (event) => {
     if ( gameIsIdle() || gameIsOver() ) {
